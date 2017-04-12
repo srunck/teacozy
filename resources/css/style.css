@@ -16,7 +16,7 @@ a {
 div {
   display: block;
 }
-header {
+.hdr1 {
   align-items: center;
   background-color: black;
   border-bottom: 1px solid seashell;
@@ -45,7 +45,6 @@ nav {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-top: 70px;
 }
 .mission {
@@ -84,25 +83,34 @@ width: 1200px;
   height: 200px;
   width: 300px;
 }
+.hdr2 {
+
+}
 .locations {
   background-image: url(../../resources/images/img-locations-background.jpg);
   height: 500px;
   background-repeat: no-repeat;
+  width: 1200px;
+}
+.locate h2 {
+  width: 100%;
+}
+.text-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 1200px;
 }
 .location-text {
   background-color: black;
-  height: 300px;
-  margin: 20px;
+  margin: 15px 20px;
   width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }
 .contact {
   height: 200px;
